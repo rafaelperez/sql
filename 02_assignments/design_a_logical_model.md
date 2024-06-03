@@ -15,7 +15,9 @@ _Hint, search type 1 vs type 2 slowly changing dimensions._
 
 Bonus: Are there privacy implications to this, why or why not?
 ```
-Your answer...
+Withholding previous records can raise privacy concerns, depending on the relevant regulatory laws. These laws may require disclosing to the user what information is being stored and maybe would require extra engineering work, like anonymizing historical data.
+
+Additionally, if there is a data breach that reveals private information, it could further expose the company to legal and PR damages.
 ```
 
 ## Question 4
@@ -23,7 +25,9 @@ Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
 
 Highlight at least two differences between it and your ERD. Would you change anything in yours?
 ```
-Your answer...
+It becomes clear that a comprehensive business schema is highly complex. Despite the numerous additional business processes that the AdventureWorks schema can accommodate, even for a small bookstore, it is crucial to carefully evaluate and conduct extensive research to ensure that important steps or information are properly represented with the implemented tables.
+
+In my design, I noticed the absence of crucial tables, such as those related to shipping and handling, transaction history, and insufficient tables for product details and reviews. Additionally, a more detailed schema for storing customer data is needed.
 ```
 
 # Criteria
@@ -44,9 +48,9 @@ Your answer...
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `model-design`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x] Create a branch called `model-design`.
+- [x] Ensure that the repository is public.
+- [x] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [x] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack at `#cohort-3-help`. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
